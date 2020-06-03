@@ -4,6 +4,9 @@
 import sqlite3
 from employee import Employee
 
+# Creating DB in memory means it will disappear 
+# when execution finishes so can run it again and again
+# with the CREATE TABLE SQL command
 conn = sqlite3.connect(':memory:')
 
 c = conn.cursor()
