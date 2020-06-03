@@ -1,5 +1,8 @@
 import sqlite3
 
+# https://www.youtube.com/watch?v=NCc5r7Wr7gg
+# SentDex SQLite3 with Python 3
+
 conn = sqlite3.connect('SENTDEX/tutorial.db')
 c = conn.cursor()
 
